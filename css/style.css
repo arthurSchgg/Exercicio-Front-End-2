@@ -82,5 +82,6 @@ span {
 }
 
 p::first-letter {
+    font-size: 25px;
     color: brown;
 }
