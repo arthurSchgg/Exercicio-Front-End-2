@@ -24,7 +24,7 @@ h1 {
 .cabecalho {
     background-color: #0D273E;
     display: block;
-    text-align: left;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -46,7 +46,7 @@ p {
 
 img {
     display: inline;
-    width: 150px;
+    width: 300px;
     height: auto;
     margin-top: auto;
     margin-bottom: auto;
@@ -79,4 +79,8 @@ span {
     padding: 10px 15px;
     margin-bottom: 10px;
     width: fit-content;
+}
+
+p::first-letter {
+    color: brown;
 }
