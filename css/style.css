@@ -85,3 +85,23 @@ p::first-letter {
     font-size: 25px;
     color: brown;
 }
+
+ul, ol, dt {
+    color: #0D273E;
+}
+
+dd {
+    color: #00579D;
+}
+
+form {
+    background-color: rgba(0, 255, 255, 0.342);
+    width: fit-content;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 40px auto;
+}
+
+.valores-WEG {
+    text-align: center;
+}
